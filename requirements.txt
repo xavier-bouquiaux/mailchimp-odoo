@@ -1,0 +1,9 @@
+--pre
+--find-links https://wheelhouse.acsone.eu/manylinux1
+--extra-index-url https://wheelhouse.acsone.eu/acsone-simple/
+-r https://raw.githubusercontent.com/odoo/odoo/14.0/requirements.txt
+click==7.1.2
+click-odoo==1.4.3
+click-odoo-contrib==1.11.0
+setuptools-odoo
+odoo @ git+https://github.com/acsone/odoo.git@14.0-with-setup
